@@ -27,7 +27,7 @@
     <edit-config file="AndroidManifest.xml"
                  target="/manifest/application"
                  mode="merge">
-        <application android:requestLegacyExternalStorage="true"/>
+        
         <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

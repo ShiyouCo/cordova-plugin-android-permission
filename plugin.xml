@@ -24,9 +24,7 @@
       </feature>
     </config-file>
 
-    <edit-config file="AndroidManifest.xml"
-                 target="/manifest/*"
-                 mode="merge">
+    <config-file target="AndroidManifest.xml" parent="/*">
         <application android:requestLegacyExternalStorage="true"/>
         <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
